@@ -73,6 +73,7 @@ const PinDetail = ({ user }) => {
           <img
             src={pinDetail?.image && urlFor(pinDetail.image).url()}
             className='rounded-t-3xl rounded-b-lg'
+            style={{ maxHeight: '750px' }}
             alt='user-post'
           />
         </div>
