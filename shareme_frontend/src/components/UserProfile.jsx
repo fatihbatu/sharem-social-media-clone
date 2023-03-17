@@ -123,9 +123,9 @@ const UserProfile = () => {
             <MasonryLayout pins={pins} />
           </div>
         ) : (
-          <dib className='flex justify-center font-bold items-center w-full text-xl mt-2'>
+          <div className='flex justify-center font-bold items-center w-full text-xl mt-2'>
             No Pins Found!
-          </dib>
+          </div>
         )}
       </div>
     </div>
